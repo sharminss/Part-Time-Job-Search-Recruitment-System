@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="30dp"
+    android:paddingLeft="30dp"
+
+    android:paddingRight="15dp"
+
+    tools:context="com.example.asus_x454l.quickjob.About">
+
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/teal"
+        android:textStyle="bold|italic"
+        android:textSize="30dp"
+
+        android:text="We are here to provide you the opportunity to find and add a quick job easily....."
+        android:layout_alignParentTop="true" />
+</RelativeLayout>

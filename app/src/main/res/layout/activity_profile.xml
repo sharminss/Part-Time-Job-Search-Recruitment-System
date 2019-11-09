@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="15dp"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp"
+    android:paddingBottom="15dp"
+    android:background="@drawable/back1"
+    tools:context="com.example.asus_x454l.quickjob.profile">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="100dp"
+        android:textSize="15dp"
+        android:padding="8dp"
+        android:id="@+id/search"
+       android:textColor="#660000"
+        android:hint="Searching Job?"/>
+
+    <EditText
+        android:id="@+id/jobnames"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="82dp"
+
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text=""
+        android:hint="Search By Location?"
+        android:textColorLink="?attr/actionModeSplitBackground"
+        android:layout_alignTop="@+id/search"
+        android:layout_toLeftOf="@+id/ad_seach"
+        android:layout_toStartOf="@+id/ad_seach" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button"
+        android:text="ADD JOB NOW!!"
+
+        android:onClick="job_add"
+        android:paddingRight="55dp"
+        android:layout_above="@+id/jobnames"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:id="@+id/ad_seach"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Advanced search"
+        android:background="@drawable/button"
+        android:onClick="advenced_search"
+        android:layout_alignBaseline="@+id/jobnames"
+        android:layout_alignBottom="@+id/jobnames"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <ListView
+        android:id="@+id/listview3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/ad_seach"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+
+
+</RelativeLayout>

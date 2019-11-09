@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/teal"
+
+    android:paddingBottom="15dp"
+    android:paddingRight="15dp"
+    android:paddingLeft="15dp"
+    android:paddingTop="15dp"
+    tools:context="com.example.asus_x454l.quickjob.reg_activity">
+
+
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/email_add2"
+        android:layout_margin="8dp"
+        android:padding="8dp"
+        android:background="@drawable/round"
+        android:hint="Email"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/pass2"
+        android:layout_margin="8dp"
+        android:inputType="textPassword"
+        android:padding="8dp"
+        android:background="@drawable/round"
+        android:hint="Password"/>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SIGN UP ?"
+        android:onClick="reg_in"
+        android:textColor="@color/teal"
+        android:background="@color/silver"
+        android:layout_marginTop="15dp"
+
+        android:textColorLink="@color/colorPrimaryDark" />
+
+    <Button
+        android:id="@+id/BAck"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Back To Sign In?"
+        android:textColor="@color/teal"
+        android:layout_marginTop="15dp"
+        android:background="@color/silver"
+        android:textColorLink="@android:color/holo_red_dark" />
+
+
+
+
+</LinearLayout>

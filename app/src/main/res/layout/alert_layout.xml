@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:paddingLeft="15dp"
+    android:paddingTop="15dp"
+    android:paddingRight="15dp"
+    android:layout_height="match_parent">
+    <Button
+        android:text="search by location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="locationf"
+        android:id="@+id/location" />
+
+    <Button
+        android:text="search by salary"
+        android:layout_width="match_parent"
+        android:onClick="salaryf"
+        android:layout_height="wrap_content"
+        android:id="@+id/salary" />
+
+    <Button
+        android:text="search by name"
+        android:onClick="namef"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/name" />
+</LinearLayout>

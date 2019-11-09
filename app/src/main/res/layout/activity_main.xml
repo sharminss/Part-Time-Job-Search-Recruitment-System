@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="16dp"
+    android:paddingRight="16dp"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+
+    tools:context="com.example.asus_x454l.quickjob.MainActivity"
+
+    android:weightSum="1">
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:textSize="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="50dp"
+        android:textStyle="bold"
+        android:fontFamily="cursive"
+        android:text="Quickjob.com"
+        />
+
+
+    <EditText
+        android:id="@+id/email_add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:background="@drawable/oval"
+        android:hint="Email"
+        android:padding="8dp" />
+
+    <EditText
+        android:id="@+id/pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:inputType="textPassword"
+        android:background="@drawable/oval"
+        android:hint="Password"
+        android:padding="8dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:background="#2980B9"
+        android:onClick="sign_in"
+        android:textSize="20dp"
+        android:text="SIGN IN?"
+        android:textColor="#FDFEFE"
+
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textColor="#FDFEFE"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:onClick="sign_up"
+        android:background="#2980B9"
+        android:text="SIGN UP?" />
+
+    <Button
+        android:id="@+id/imageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:layout_marginTop="50dp"
+        android:drawableTop="@drawable/bgoogle"
+
+        android:onClick="googlef"
+        android:layout_weight="0.06" />
+
+    <TextView
+        android:id="@+id/textab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="cursive"
+        android:onClick="about"
+        android:text="..about??"
+        android:textColor="#2980B9"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+
+</LinearLayout>

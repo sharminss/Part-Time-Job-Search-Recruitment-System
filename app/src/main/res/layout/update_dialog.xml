@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter name" />
+    <EditText
+        android:id="@+id/editTextName2"
+        android:layout_below="@+id/editTextName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter salary" />
+    <EditText
+        android:id="@+id/editTextName3"
+        android:layout_below="@+id/editTextName2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="time" />
+    <EditText
+        android:id="@+id/editTextName4"
+
+        android:layout_below="@+id/editTextName3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Experience" />
+    <EditText
+        android:id="@+id/editTextName5"
+        android:layout_below="@+id/editTextName4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Education" />
+    <EditText
+        android:id="@+id/editTextName6"
+
+        android:layout_below="@+id/editTextName5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="requirement" />
+    <EditText
+        android:id="@+id/editTextName7"
+
+        android:layout_below="@+id/editTextName6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="contact" />
+
+    <EditText
+        android:id="@+id/editTextName8"
+
+        android:layout_below="@+id/editTextName7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="address" />
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttonUpdateArtist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="updatef"
+            android:text="Update" />
+
+        <Button
+            android:id="@+id/buttonDeleteArtist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Delete" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="15dp"
+    tools:context="com.example.asus_x454l.quickjob.AddTrack">
+    <TextView
+        android:text="Job Name:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:textSize="14sp"
+        android:layout_alignParentTop="true"
+        android:textColor="#6200EA"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignStart="@+id/textView2" />
+
+    <TextView
+        android:text="Salary:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:layout_marginLeft="32dp"
+        android:layout_marginStart="32dp"
+        android:textColor="#6200EA"
+        android:layout_alignBaseline="@+id/salarys"
+        android:layout_alignBottom="@+id/salarys"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="15dp"
+
+        android:ems="10"
+        android:id="@+id/salarys"
+        android:layout_below="@+id/jobnames"
+        android:layout_alignLeft="@+id/jobnames"
+        android:text="text"
+
+        android:layout_alignStart="@+id/jobnames" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+
+        android:ems="10"
+        android:id="@+id/jobnames"
+        android:layout_alignBaseline="@+id/textView"
+        android:layout_alignBottom="@+id/textView"
+        android:layout_toRightOf="@+id/textView"
+        android:layout_toEndOf="@+id/textView"
+        android:text="text2"
+        android:layout_marginLeft="31dp"
+        android:layout_marginStart="31dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Time and Date:"
+        android:textColor="#6200EA"
+        android:layout_alignBottom="@+id/times"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignStart="@+id/textView2" />
+
+    <TextView
+        android:id="@+id/times"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/salarys"
+        android:layout_alignStart="@+id/salarys"
+        android:layout_below="@+id/salarys"
+        android:ems="10"
+        android:paddingTop="15dp"
+        android:text="text"
+        />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Experience:"
+        android:textColor="#6200EA"
+        android:layout_alignBottom="@+id/exps"
+        android:layout_alignLeft="@+id/textView4"
+        android:layout_alignStart="@+id/textView4" />
+
+    <TextView
+        android:id="@+id/exps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:text="text"
+        android:paddingTop="15dp"
+        android:layout_below="@+id/times"
+        android:layout_alignLeft="@+id/times"
+        android:layout_alignStart="@+id/times" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Education:"
+        android:textColor="#6200EA"
+        android:layout_above="@+id/textView7"
+        android:layout_alignLeft="@+id/textView5"
+        android:layout_alignStart="@+id/textView5" />
+
+    <TextView
+        android:id="@+id/edus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_below="@+id/exps"
+        android:text="text"
+        android:paddingTop="15dp"
+        android:layout_alignLeft="@+id/exps"
+        android:layout_alignStart="@+id/exps" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Requirement:"
+        android:textColor="#6200EA"
+        android:layout_below="@+id/edus"
+        android:layout_alignLeft="@+id/textView6"
+        android:layout_alignStart="@+id/textView6"
+        android:layout_alignRight="@+id/textView4"
+        android:layout_alignEnd="@+id/textView4" />
+
+    <TextView
+        android:id="@+id/reqs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:text="text"
+        android:layout_alignBottom="@+id/textView7"
+        android:layout_alignLeft="@+id/jobnames"
+        android:layout_alignStart="@+id/jobnames" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#6200EA"
+        android:paddingTop="15dp"
+        android:text="Contact no:"
+        android:layout_below="@+id/textView7"
+        android:layout_alignLeft="@+id/textView7"
+        android:layout_alignStart="@+id/textView7" />
+
+    <TextView
+        android:id="@+id/contacts"
+        android:paddingTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/reqs"
+        android:layout_alignStart="@+id/reqs"
+        android:layout_below="@+id/reqs"
+        android:ems="10"
+
+        android:text="text2" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#6200EA"
+        android:text="Address:"
+        android:layout_alignBaseline="@+id/adds"
+        android:layout_alignBottom="@+id/adds"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_alignStart="@+id/textView3" />
+
+    <TextView
+        android:id="@+id/adds"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:text="fr"
+        android:layout_below="@+id/contacts"
+        android:layout_alignLeft="@+id/contacts"
+        android:layout_alignStart="@+id/contacts"
+        android:layout_marginTop="17dp" />
+
+    <Button
+        android:id="@+id/apply1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/adds"
+        android:background="@drawable/button"
+        android:onClick="apply_method"
+        android:layout_marginEnd="33dp"
+        android:layout_marginRight="33dp"
+        android:layout_marginTop="99dp"
+        android:text="Apply for Job" />
+
+
+
+
+</RelativeLayout>

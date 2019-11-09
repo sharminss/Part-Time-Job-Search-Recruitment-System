@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "913922723177",
+    "firebase_url": "https://quickjob-4a1d2.firebaseio.com",
+    "project_id": "quickjob-4a1d2",
+    "storage_bucket": "quickjob-4a1d2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:913922723177:android:92e55b5a3e1ad682",
+        "android_client_info": {
+          "package_name": "com.example.asus_x454l.quickjob"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "913922723177-ubfr142gtvdskkjgcf1ifog916q7i8nb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.asus_x454l.quickjob",
+            "certificate_hash": "a3da6a6a5b372c42814e2ab47178fbe098b8ef3f"
+          }
+        },
+        {
+          "client_id": "913922723177-trt4m9rh35hg1ejj5259hlmj44eskft8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBk2sC_6Y38z0R4NGL-v84smVB8x9VBC1Y"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "913922723177-trt4m9rh35hg1ejj5259hlmj44eskft8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

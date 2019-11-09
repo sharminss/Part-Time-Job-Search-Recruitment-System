@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/icon"
+    tools:context="com.example.asus_x454l.quickjob.mainfragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="100dp"
+        android:textSize="15dp"
+        android:padding="8dp"
+        android:id="@+id/search"
+
+        android:hint="Searching Job?"/>
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="82dp"
+
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text=""
+        android:hint="Search By Location?"
+        android:textColorLink="?attr/actionModeSplitBackground"
+        android:layout_alignTop="@+id/search"
+
+        android:layout_alignRight="@+id/search"
+        android:layout_alignEnd="@+id/search" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+
+        android:text="ADD JOB NOW!!"
+        android:paddingRight="55dp"
+        android:layout_alignLeft="@+id/editText"
+        android:layout_alignStart="@+id/editText"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="50dp"
+        android:layout_alignLeft="@+id/editText"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/editText"
+        android:layout_marginLeft="17dp"
+        android:layout_marginStart="17dp"
+        android:drawableTop="@drawable/ic_backk"
+        android:text="Previous"
+        android:layout_height="100dp" />
+
+    <Button
+        android:id="@+id/ad_seach"
+        android:text="Advanced search"
+
+        android:drawableTop="@drawable/ic_imag"
+        android:layout_alignTop="@+id/editText"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="18dp"
+        android:layout_marginEnd="18dp"
+        android:layout_height="100dp"
+        android:layout_width="100dp" />
+
+
+</RelativeLayout>
